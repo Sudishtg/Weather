@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contents">
+            <div class="empty">
+
+            </div>
+            <div class="serach">
+                <form>
+                    <input type="text" name="place" placeholder="Enter place">
+                    <button type="submit" name="submit">Submit</button>
+                </form>
+            </div>
+            <div class="weather box">
+                <p>The temperature at <%=placename1%> is <%=temperature1%> C</p>
+            </div>
+            <div class="description box">
+                <p><%=description1%></p>
+            </div>
+            <div class="humidity box">
+                <p>Humidity : <%=humidity1%> gpmc</p>
+            </div>
+            <div class="wind box">
+                <p>Wind Speed : <%=windspeed1%> kmph</p>
+            </div>
+            <div>
+                <form method="get" action="/">
+                    <button type="submit" name="submit">Refresh</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

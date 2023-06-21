@@ -1,0 +1,39 @@
+.contents{
+    background: linear-gradient(120deg, #f2eb11, #f211b6);
+    display: flex;
+    height: 100dvh;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    font-size: 4rex;
+    font-family: Gabriola;
+}
+input{
+    font-family: Gabriola;
+    color: black;
+    background: #f7b0e7;
+    font-size: 4rex;
+    font-weight: 500;
+    width: 100vh;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    font-family: Gabriola;
+    font-size: 4rex;
+    padding: 12px 20px;
+    background: #f7b0e7;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid black;
+    border: 2px solid #f7b0e7;
+    outline: none;
+}
